@@ -19,7 +19,7 @@ class typeController extends Controller
     public function index(types $types)
     {
         $types=$types->get();
-       return view('users.home',compact('types'));
+       return view('users.types',compact('types'));
 
 
     }

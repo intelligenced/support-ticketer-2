@@ -11,7 +11,7 @@
 <div class="form-group">
   <input name="name" type="hidden" value="" >
 
-<label for="selectSupportType">Support Type</label>
+<label for="selectSupportType">Support on Duty</label>
 <select name="user_details" id="selectSupportType" class="form-control">
 
   @foreach ($users as $users)
@@ -41,7 +41,6 @@
 
 
 
-
     <label for="exampleInputEmail1">Message</label>
     <textarea name="message" class="form-control" rows="3"></textarea></div>
     
@@ -60,7 +59,7 @@
 
 
 
-                        <table class="table">
+            <div class="table-responsive">            <table class="table">
             <thead>
 
                 <tr>
@@ -93,16 +92,9 @@
              </tr>
 
              @endforeach
-
-                
-                
-               
-               
               </tbody>
 </table> 
 
-
         </div>
-    </div>
 
 @stop
